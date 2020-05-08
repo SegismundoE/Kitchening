@@ -1,125 +1,127 @@
 @media (min-width: 768px){
-
+    
     .container {
-
+        
         width: 100vw;
         margin: auto;
         margin: auto;
         display: flex;
         flex-direction: column;
-
+        
     }
-
+    
     .main-header {
+        
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-
+        
     }
     
     .logo {
-
+        
         border-radius: 50%;
         margin-top: 15px;
         margin-bottom: 30px;
         width: 180px;
-
+        
     }
-
+    
     .banner{
+        
         display: flex;
         justify-content: center;
+        
     }
-
-
-
-
+    
+    
+    
+    
     .banner img{
-
+        
         margin-bottom: 20px;
         width: 100%;
     }
     
-
-
+    
+    
     body {
-
+        
         background-image: url(../images/bg-body.png);
         background-size: auto;
         background-repeat: repeat;
-    
-
+        
+        
     }
-
+    
     nav ul{
-
+        
         display: flex;
         flex-direction: row;
         width: 100%;
         align-items: baseline;
         
-
     }
-
+    
     nav li {
-
+        
         list-style: none;
         background-color: rgba(0,0,0,0.7);
         color: white;
         height: 30px;
-
+        
         margin-right: 20px;
         padding-top: 8px;
         padding-left: 8px;
         padding-right: 8px;
-
-
+        
+        
     }
-
-
+    
+    
     a {
-
+        
         text-decoration: none;
         color: white;
         text-transform: uppercase;
         padding: 2px 2px;
         font-size: 15px;
         color: white;
-
+        
     }
-
+    
     .vip-products{
-
+        
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         
-      
+        
     }
-
-
- .product {
+    
+    
+    .product {
         
         display: flex;
         flex-wrap: wrap;
         flex: 2 2 ;
         align-items: center;
         margin-bottom: 15px;
-
+        
     }
-
+    
     .special {
         position: relative;
         width: 70px;
         bottom: 160px;
         left: 100px;
-
+        
     }
-
-    .zoom{
     
+    .zoom{
+        
         font-size: 18px;
         text-align: center;
         position: relative;
@@ -127,10 +129,11 @@
         color: white;
         width: 298px;
         background-color:rgba(0,0,0,0.8);
+        
     }
-
+    
     .more {
-
+        
         padding: 10px 20px;
         background-color: rgba(0, 0, 0, 0.8);
         color: white;
@@ -139,38 +142,39 @@
         margin-left:5px;
         margin-top:5px;
         margin-bottom: 5px;
+        
     }
-
+    
     .photo-container {
-
+        
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100%;
-
+        
     }
-
-
-
+    
+    
+    
     footer {
-
+        
         width: 100%;
         text-align: center;
-
+        
     }
-
+    
     footer ul {
-
+        
         list-style-type: none;
         color: white;
         text-transform: uppercase;
         padding: 0;
-    
+        
     }
     
     footer li {
-
+        
         background-color: gray;
         margin-bottom: 3px;
         
